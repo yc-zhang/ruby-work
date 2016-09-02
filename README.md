@@ -1,13 +1,10 @@
 #### This is a sample to show you how to deploy unicorn and nginx
 
-Clone this repo to local, then run the following:
-
+Clone this repo to local, then run the following to create some local folders:
 ```shell
-$ mkdir log
-$ mkdir tmp
-$ mkdir tmp/pids
-$ mkdir tmp/sockets
+$ sh init.sh
 ```
+
 Change `path/to/app` to this app folder in `config.rb`
 
 Then update your nginx config file and please refer to `nginx/config/sample.conf`
