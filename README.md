@@ -38,5 +38,6 @@ $ cat tmp/pids/unicorn.pid | xargs kill -QUIT
 ```
  
 Reference:
-http://sirupsen.com/setting-up-unicorn-with-nginx/
+
+http://sirupsen.com/setting-up-unicorn-with-nginx
 http://recipes.sinatrarb.com/p/deployment/nginx_proxied_to_unicorn
